@@ -252,35 +252,7 @@ const Index = ({ data }) => {
             </Info>
           </StyledLink>
         </Wrapper2>
-        {/* <Wrapper>
-          <Image>
-            <Img
-              fluid={data.imageThirteen.childImageSharp.fluid || <Skeleton />}
-              alt="Cacti"
-            />
-          </Image>
-          <StyledLink to="/catalog/cacti/">
-            <Info>
-              <Title>Cactus</Title>
-            </Info>
-          </StyledLink>
-        </Wrapper> */}
-        {/* <Wrapper>
-          <Image>
-            <Img
-              fluid={data.imageEleven.childImageSharp.fluid || <Skeleton />}
-              alt="Nepenthes Kokedama"
-            />
-          </Image>
-          <StyledLink to="/catalog/carnivorous-plants/kokedama">
-            <Info>
-              <Title>Nepenthes Kokedama</Title>
-              
-            </Info>
-          </StyledLink>
-        </Wrapper> */}
 
-        {/* <ImageLinks links={links}/> */}
         <Products links={links} />
       </PostWrapper>
       <PostWrapper>
