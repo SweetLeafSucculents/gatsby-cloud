@@ -164,17 +164,17 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
   //let opts = JSON.parse(options);
   //console.log("Options: " + opts);
   //console.log(sku3)
-  const scaryAnimals = [
+  const optionsArray = [
     { label: `${option1}`, value: 1 },
     { label: `${option2}`, value: 2 },
     { label: `${option3}`, value: 3 },
     { label: `${option4}`, value: 4 },
   ];
   if (sku3 === undefined || sku3 === null) {
-    scaryAnimals.pop();
-    scaryAnimals.pop();
+    optionsArray.pop();
+    optionsArray.pop();
   }
-  //console.log(scaryAnimals)
+  //console.log(optionsArray)
   return (
     <>
       <Wrapper>
@@ -220,7 +220,7 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
               <p>{/* <a href={`${post.care}`}>Care Instructions</a> */}</p>
               {option1 && (
                 <Select
-                  options={scaryAnimals}
+                  options={optionsArray}
                   onChange={opt => {
                     if (opt.value == 1) {
                       itemPrice = price1;
