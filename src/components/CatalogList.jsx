@@ -146,7 +146,7 @@ const CatalogList = ({ path, cover, title, date, excerpt, tags, story, inStock }
         {/* <TagsBlock list={tags} /> */}
         {/* {story} */}
         { 
-          (inStock == "http://schema.org/OutOfStock") && <p> Out of Stock -- Check back soon!</p>
+          (inStock == "http://schema.org/OutOfStock") && <p> Still Growing -- Check back soon!</p>
           
         }
       </Information>
