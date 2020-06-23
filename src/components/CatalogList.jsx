@@ -7,7 +7,6 @@ import { TagsBlock } from 'components';
 import { Container } from 'layouts';
 
 const Wrapper = styled.main`
-    
   margin: 1rem 1rem 1rem 1rem;
   flex-basis: calc(99.9% * 1 / 3 - 2.5rem);
   max-width: calc(99.9% * 1 / 3 - 2.5rem);
@@ -105,7 +104,6 @@ const Date = styled.div`
 const Title = styled.h2`
   margin: 0;
   color: ${props => props.theme.colors.white.base};
-
 `;
 
 const CatalogContainer = styled(Container)`
@@ -130,27 +128,35 @@ const CatalogContainer = styled(Container)`
   }
 `;
 
-const CatalogList = ({ path, cover, title, date, excerpt, tags, story, inStock }) => (
+const CatalogList = ({
+  path,
+  cover,
+  title,
+  date,
+  excerpt,
+  tags,
+  story,
+  inStock,
+}) => (
   // <CatalogContainer>
-    <Wrapper>
-      <Image>
-        <Link to={path} title={title}>
-          <Img fluid={cover} />
-        </Link>
-      </Image>
-      <Information>
-        {/*<Date>{date}</Date>*/}
-        <Link to={path}>
-          <Title>{title}</Title>
-        </Link>
-        {/* <TagsBlock list={tags} /> */}
-        {/* {story} */}
-        { 
-          (inStock == "http://schema.org/OutOfStock") && <p> Still Growing -- Check back soon!</p>
-          
-        }
-      </Information>
-    </Wrapper>
+  <Wrapper>
+    <Image>
+      <Link to={path} title={title}>
+        <Img fluid={cover} />
+      </Link>
+    </Image>
+    <Information>
+      {/*<Date>{date}</Date>*/}
+      <Link to={path}>
+        <Title>{title}</Title>
+      </Link>
+      {/* <TagsBlock list={tags} /> */}
+      {/* {story} */}
+      {inStock == 'http://schema.org/OutOfStock' && (
+        <p> Still Growing -- Check back soon!</p>
+      )}
+    </Information>
+  </Wrapper>
   // </CatalogContainer>
 );
 

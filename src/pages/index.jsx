@@ -238,7 +238,7 @@ const Index = ({ data }) => {
       </PostWrapper>
 
       <PostWrapper>
-        <Wrapper2>
+        {/* <Wrapper2>
           <Image>
             <Img
               fluid={data.imageTwelve.childImageSharp.fluid || <Skeleton />}
@@ -248,10 +248,9 @@ const Index = ({ data }) => {
           <StyledLink to="/catalog/succulents/">
             <Info>
               <Title>Succulents</Title>
-              {/* <Price>$9.95</Price> */}
             </Info>
           </StyledLink>
-        </Wrapper2>
+        </Wrapper2> */}
 
         <Products links={links} />
       </PostWrapper>
