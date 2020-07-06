@@ -123,8 +123,8 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
     }
   }
 
-  console.log('stocked ', stocked);
-  console.log('inStock ', inStock);
+  //console.log('stocked ', stocked);
+  //console.log('inStock ', inStock);
 
   let disabled = () => {
     if (stocked) return 'false';
