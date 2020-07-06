@@ -243,7 +243,7 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
                   }}
                 />
               )}
-
+              { stocked && 
               <button
                 id="addToCart"
                 style={{
@@ -276,6 +276,7 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
               >
                 Add to Cart!
               </button>
+              }
               {/* <button onClick={openCart}>Open Cart</button> */}
             </Info>
           </GridItem>
