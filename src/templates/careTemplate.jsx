@@ -10,9 +10,9 @@ import '../styles/prism';
 const CareWrapper = styled.div`
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-margin: 4rem 4rem 1rem 4rem;
+flex-wrap: nowrap;
+justify-content: space-around;
+margin: 2rem 4rem 2rem 4rem;
 a {
   color: ${props => props.theme.colors.white.base};
 }
@@ -36,6 +36,9 @@ const blogSuggestion = styled.div`
   align-items: center;
   margin: 1rem 3rem 0 3rem;
 `;
+const Image = styled.div`
+  justify-content: space-between;
+`
 
 const care = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
@@ -53,16 +56,20 @@ const care = ({ data, pageContext }) => {
         pathname={path}
         article
       />
-      <Header title={title} date={date} cover={image} />
+      <Header title={title} date={date} cover={image}  />
       <Container>
+      <CareWrapper>
         <h1>{title}</h1>
-        <CareWrapper>
-          <Img fluid={pic} alt="" />
         </CareWrapper>
-        {/* <Img fluid={pic} alt="" /> */}
         <CareWrapper>
 
-        </CareWrapper>
+        <Img fluid={pic} style={{ width: pic.presentationWidth }} alt="" />
+
+      </CareWrapper>
+        {/* <CareWrapper>
+          <Img fluid={pic} alt="" />
+        </CareWrapper> */}
+        
         <Content input={html} />
         <TagsBlock list={tags || []} />
       </Container>
@@ -109,10 +116,13 @@ export const query = graphql`
         pic {
           childImageSharp {
             fluid( maxWidth: 500, quality: 75, traceSVG: { color: "#2B2B2F" }) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG,
+              presentationWidth
+
             }
           }
         }
+        
         cover {
           childImageSharp {
             fluid(
