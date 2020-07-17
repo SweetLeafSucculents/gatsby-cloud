@@ -4,7 +4,7 @@ cover: "./side-vft.jpg"
 # cover: "./droseraSide.jpg"
 pic: "./side-vft.jpg"
 date: "2020-07-12"
-title: "Caring for your Venus Fly Trap"
+title: "Care Guide for Venus Fly Trap"
 published: true
 id: 1
 posttype: guides
