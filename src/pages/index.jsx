@@ -197,7 +197,7 @@ const Index = ({ data }) => {
       title: 'Red Dragon Fly Traps',
     },
     {
-      link: '/catalog/carnivorous-plants/alata/',
+      link: '/catalog/carnivorous-plants/medium-nepenthes/',
       img: data.imageTen.childImageSharp.fluid,
       title: 'Nepenthes',
     },

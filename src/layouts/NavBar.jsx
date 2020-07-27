@@ -60,7 +60,7 @@ const NavBar = props => (
       <div></div>
       <Nav>
         {/* <Link to="/">Home</Link> */}
-        <Link to="/catalog">Catalog</Link>
+        <Link to="/catalog">Shop</Link>
         {/* <Link to="/about">About</Link> */}
         <Link to="/care">Care Guides</Link>
         <div> {`  `} </div>
