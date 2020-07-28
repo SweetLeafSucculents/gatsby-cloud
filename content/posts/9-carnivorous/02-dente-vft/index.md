@@ -23,7 +23,7 @@ option2: ""
 #option1: "Medium Nepenthes"
 #option2: "Large Nepenthes"
 # price: 14.25
-price: 14.95
+price: 13.95
 sku: "sku_HikG8jOb8MPAEr"
 # sku: "sku_H8oMHXgTx3QW3z"
 # options: '[{ label: "Small", value: 1 }, { label: "Large", value: 2 }]'
