@@ -20,7 +20,7 @@ temperature: "60 F"
 seasonality: ""
 inventory: 14
 available: 1
-option1: "Plastic Nursery Pot"
+#option1: "Plastic Nursery Pot"
 option2: "Terra Cotta Pot (+$2.00)"
 price: 6.45
 price2: 8.45

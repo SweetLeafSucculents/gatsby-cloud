@@ -19,7 +19,7 @@ petsafe: "Yes"
 temperature: "55F"
 seasonality: ""
 inventory: 14
-option1: "Plastic Nursery Pot"
+#option1: "Plastic Nursery Pot"
 option2: "Terra Cotta Pot (+$2.00)"
 price: 6.95
 price2: 8.95

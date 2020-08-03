@@ -24,7 +24,7 @@ seasonality: ""
 inventory: 14
 available: 1
 
-option1: "2 inch Plastic Nursery Pot"
+#option1: "2 inch Plastic Nursery Pot"
 option2: "2 inch Terra Cotta Pot (+$2.00)"
 option3: "3.5 inch Plastic Nursery Pot"
 option4: "3.5 inch Terra Cotta Pot (+$2.00)"
