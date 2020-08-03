@@ -214,7 +214,7 @@ const Index = ({ data }) => {
     {
       link: '/catalog/fairy-garden/rose-hypoestes/',
       img: data.imageEight.childImageSharp.fluid,
-      title: 'Rose Hypestes',
+      title: 'Rose Hypoestes',
     },
   ];
  
