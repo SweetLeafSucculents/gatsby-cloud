@@ -31,7 +31,7 @@ sku: "sku_H4iFHvjWSUfTUP"
 # option2: "red"
 # options: '[{ label: "Small", value: 1 }, { label: "Large", value: 2 }]'
 published: true
-available: 1
+available: 0
 # inStock: "http://schema.org/InStock"
 inStock: "http://schema.org/OutOfStock"
 story: "Sempervivum heuffelii 'Mystique' "

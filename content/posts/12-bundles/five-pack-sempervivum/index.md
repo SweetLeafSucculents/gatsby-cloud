@@ -27,7 +27,7 @@ sku2: ""
 option2: "Terra Cotta Pot"
 price: 19.99
 # price2: 39.99
-available: 1
+available: 0
 published: true
 # inStock: "http://schema.org/InStock"
 inStock: "http://schema.org/OutOfStock"
