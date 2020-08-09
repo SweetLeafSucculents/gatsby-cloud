@@ -31,16 +31,16 @@ sku: "sku_GjxyukjjpQOVDs"
 # options: '[{ label: "Small", value: 1 }, { label: "Large", value: 2 }]'
 published: true
 available: 1
-# inStock: "http://schema.org/InStock"
-inStock: "http://schema.org/OutOfStock"
-story: "One of the easiest pitcher plants to grow. Plants come potted in a 3.5 inch square plastic pot with pure long fiber sphagnum moss, so it is ready to go and doesn't need to be repotted in a different medium. These would be considered large starters are their leaves span between 9 inches and 12 inches at the largest point. Plants have an average of five or six pitchers."
+inStock: "http://schema.org/InStock"
+# inStock: "http://schema.org/OutOfStock"
+story: "One of the easiest pitcher plants to grow. Plants come potted in a 6 inch round plastic pot with pure long fiber sphagnum moss, so it is ready to go and doesn't need to be repotted in a different medium. These would be considered large starters are their leaves span between 9 inches and 12 inches at the largest point. Plants have an average of five or six pitchers."
 
 ---
 <strong>Nepenthes x ventrata</strong> is one of the easiest pitcher plants to grow. These are a carnivorous cross between N. ventricosa and N. alata and are native to the Philippines. Nepenthes are non-toxic and the pitchers are actually used for cooking in some cultures, however small reptiles that could get trapped in the pitchers should not be allowed near them for fear of them getting stuck inside and drowning. Sometimes frogs, anoles and bats can be seen living in some pitchers, but it is important not to allow baby reptiles near them that are too small to get themselves back out. 
 
 These Nepenthes are a vine that produce long, wide leaves bright green leaves with a red/orange/yellow pitcher on a tendril at the end. They produce a sticky substance that attracts bugs that slip and fall into the pitcher where they get trapped and drowned in the liquid at the bottom, and then are broken up and absorbed by the plant for nutrients. 
 
-Plants come in a 3.5 inch pot with pure long fiber sphagnum moss and do not need to be repotted immediately upon arrival, but they will likely need to be repotted some time this Spring/Summer, as these are considered large plants, despite not being full grown. In addition, these are plants that were grown from tissue culture and not a cutting from a larger plant, and while they may produce basal babies, they don’t have the cut end on the top like others grown from cuttings.  
+Plants come in a 6 inch pot with pure long fiber sphagnum moss and do not need to be repotted immediately upon arrival, but they will likely need to be repotted some time this Spring/Summer, as these are considered large plants, despite not being full grown. In addition, these are plants that were grown from tissue culture and not a cutting from a larger plant, and while they may produce basal babies, they don’t have the cut end on the top like others grown from cuttings.  
 
 
 These Nepenthes are intermediate and are cold hardy year round in Zone 11 and up and need to be indoors in bright indirect light when temperatures outside dip below 55 degrees. Normal room temperature inside is ideal. Easy to grow outside or in a window. If left outside they will catch everything they need. If inside, check pitchers and if there are no bugs in them, feed once a month or so by dropping a few beta pellets into a couple of pitchers. Moss should be kept moist at all times with reverse osmosis water, distilled water or clean collected rain. NO tap water! [See our care guide for more detailed instructions](/care/alata/).
