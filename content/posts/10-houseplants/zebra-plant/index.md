@@ -30,7 +30,7 @@ price2: 0.00
 # price2: 14.99
 # options: '[{ label: "Small", value: 1 }, { label: "Large", value: 2 }]'
 
-available: 1
+available: 0
 # published: true
 inStock: "http://schema.org/OutOfStock"
 story: "Calathea zebrina (the Zebra Plant) is a an evergreen perennial from Brazil."
