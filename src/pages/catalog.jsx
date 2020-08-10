@@ -97,9 +97,9 @@ const Catalog = ({ data }) => {
       
       </CatalogWrapper>
 
-      <PostWrapper>
+      {/* <PostWrapper>
           <h2>Succulents and More Coming Spring 2020! </h2>
-      </PostWrapper>    
+      </PostWrapper>     */}
       </Layout>
   );
 };
