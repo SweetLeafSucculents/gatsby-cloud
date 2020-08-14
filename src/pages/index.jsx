@@ -21,7 +21,7 @@ const pMinDelay = require('p-min-delay');
 // const Products = loadable(() => import('../components/ImageLinks'))
 const Products = loadable(
   () => pMinDelay(import('../components/ImageLinks')),
-  1000
+  1
 );
 
 import Skeleton from 'react-loading-skeleton';
