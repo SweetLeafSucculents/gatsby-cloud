@@ -187,35 +187,45 @@ const Index = ({ data }) => {
 
   const links = [
     {
-      link: '/catalog/cacti/',
-      img: data.imageThirteen.childImageSharp.fluid,
-      title: 'Cactus',
+      link: '/catalog/carnivorous-plants/',
+      img: data.imageTwo.childImageSharp.fluid,
+      title: 'Carnivorous Plants',
     },
     {
-      link: '/catalog/carnivorous-plants/red-dragon',
-      img: data.imageFourteen.childImageSharp.fluid,
-      title: 'Red Dragon Fly Traps',
+      link: '/catalog/fairy-garden/',
+      img: data.imageOne.childImageSharp.fluid,
+      title: 'Fairy Garden Plants',
     },
     {
-      link: '/catalog/carnivorous-plants/medium-nepenthes/',
-      img: data.imageTen.childImageSharp.fluid,
-      title: 'Nepenthes',
+      link: '/catalog/houseplants/',
+      img: data.imageThree.childImageSharp.fluid,
+      title: 'Houseplants',
     },
-    {
-      link: '/catalog/fairy-garden/mini-white/',
-      img: data.imageSeven.childImageSharp.fluid,
-      title: 'Mini White',
-    },
-    {
-      link: '/catalog/fairy-garden/mini-pixie/',
-      img: data.imageFive.childImageSharp.fluid,
-      title: 'Mini Pixie',
-    },
-    {
-      link: '/catalog/fairy-garden/rose-hypoestes/',
-      img: data.imageEight.childImageSharp.fluid,
-      title: 'Rose Hypoestes',
-    },
+    // {
+    //   link: '/catalog/carnivorous-plants/red-dragon',
+    //   img: data.imageFourteen.childImageSharp.fluid,
+    //   title: 'Red Dragon Fly Traps',
+    // },
+    // {
+    //   link: '/catalog/carnivorous-plants/medium-nepenthes/',
+    //   img: data.imageTen.childImageSharp.fluid,
+    //   title: 'Nepenthes',
+    // },
+    // {
+    //   link: '/catalog/fairy-garden/mini-white/',
+    //   img: data.imageSeven.childImageSharp.fluid,
+    //   title: 'Mini White',
+    // },
+    // {
+    //   link: '/catalog/fairy-garden/mini-pixie/',
+    //   img: data.imageFive.childImageSharp.fluid,
+    //   title: 'Mini Pixie',
+    // },
+    // {
+    //   link: '/catalog/fairy-garden/rose-hypoestes/',
+    //   img: data.imageEight.childImageSharp.fluid,
+    //   title: 'Rose Hypoestes',
+    // },
   ];
  
 
@@ -227,15 +237,15 @@ const Index = ({ data }) => {
         {/* <Img fluid={data.logo.childImageSharp.fluid} /> */}
       </Header>
       <PostWrapper>
-        <h2> Featured Plants </h2>
+        {/* <h2> Featured Plant Types </h2> */}
       </PostWrapper>
-      <PostWrapper>
+      {/* <PostWrapper>
         <p>
           Announcement: We will be adding many new plants to our inventory over
           the coming weeks. We will also be updating our succulent catalog. You
           can follow us on social media to get the latest updates!
         </p>
-      </PostWrapper>
+      </PostWrapper> */}
 
       <PostWrapper>
         {/* <Wrapper2>
@@ -303,6 +313,27 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
+    imageOne: file(relativePath: { eq: "fairy1.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 80) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    imageTwo: file(relativePath: { eq: "juthatipSoperPitcherFront.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 80) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    imageThree: file(relativePath: { eq: "candyFront.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 80) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
     imageFive: file(relativePath: { eq: "anglePixie2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 400, quality: 80) {
