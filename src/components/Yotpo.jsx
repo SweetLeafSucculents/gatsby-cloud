@@ -17,6 +17,7 @@ export default class Yotpo extends React.Component {
     if (typeof window.yotpo !== "undefined") {
       window.yotpo.initWidgets();
     }
+    this.refresh()
   }
 
   render() {
