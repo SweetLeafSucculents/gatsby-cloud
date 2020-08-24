@@ -283,13 +283,13 @@ module.exports = {
       },
     },
     // `gatsby-plugin-preact`,
-    // {
-    //   resolve: 'gatsby-plugin-load-script',
-    //   options: {
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
         
-    //     src: 'https://staticw2.yotpo.com/oqoqaYJmZaZJrICMIqc4gz5ehcle2gb97m3WJojY/widget.js',
+        src: 'https://staticw2.yotpo.com/oqoqaYJmZaZJrICMIqc4gz5ehcle2gb97m3WJojY/widget.js',
         
-    //   },
-    // },
+      },
+    },
   ],
 };
