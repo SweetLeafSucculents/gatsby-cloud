@@ -262,7 +262,9 @@ const Index = ({ data }) => {
           </StyledLink>
         </Wrapper2> */}
 
-        <Products links={links} />
+        {/* <Products links={links} /> */}
+        <ImageLinks links={links} />
+
       </PostWrapper>
       <PostWrapper>
         <h3>
