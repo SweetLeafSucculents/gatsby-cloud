@@ -30,7 +30,7 @@ sku: "sku_HikG8jOb8MPAEr"
 published: true
 available: 1
 inStock: "http://schema.org/InStock"
-story: "Dionaea muscipula 'Akai Ryu' (the Red Dragon Venus Fly Trap) is a carnivorous plant in the family Droseraceae from North Carolina, USA."
+story: "Dionaea muscipula 'Dente' (the Saw Toothed Venus Fly Trap) is a carnivorous plant in the family Droseraceae from North Carolina, USA."
 
 ---
 Dionaea muscipula 'Dente' (the Saw Toothed Venus Fly Trap) is a carnivorous plant in the family Droseraceae from North Carolina, USA. They fuzzy pet safe, as well as reptile safe, provided that the traps do not grow larger than your animals. Baby lizards and frogs should likely be kept away from them. Dionaea muscipula produce white flowers on long stems in Spring, and narrow green leaves with a trap on the end that contains tiny hairs that when triggered twice in a 30 second period will close and trap bugs and small animals and digest them. Plants should only be given rain, reverse osmosis water or distilled. Plants will arrive in one 2.5 inch deep pot, fully rooted and in the correct medium.
