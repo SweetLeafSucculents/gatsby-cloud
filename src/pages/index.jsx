@@ -246,9 +246,12 @@ const Index = ({ data }) => {
           can follow us on social media to get the latest updates!
         </p>
       </PostWrapper> */}
+          
 
       <PostWrapper>
-        {/* <Wrapper2>
+        <ImageLinks links={links} />
+
+        <Wrapper2>
           <Image>
             <Img
               fluid={data.imageTwelve.childImageSharp.fluid || <Skeleton />}
@@ -260,10 +263,9 @@ const Index = ({ data }) => {
               <Title>Succulents</Title>
             </Info>
           </StyledLink>
-        </Wrapper2> */}
+        </Wrapper2>
 
         {/* <Products links={links} /> */}
-        <ImageLinks links={links} />
 
       </PostWrapper>
       <PostWrapper>

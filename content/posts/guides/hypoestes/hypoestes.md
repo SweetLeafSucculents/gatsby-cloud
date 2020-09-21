@@ -20,3 +20,5 @@ Polka Dot plants are easy to grow and will spread on the ground or trail in a ha
 To propagate, take leaf tip cuttings about 1 - 2” tall and replant them back in the soil or in another container with a peat based soil mixture and keep moist to allow new roots to grow. 
 
 If you have questions or concerns, feel free to shoot us a message and we will help in any way that we are able. And if you have questions about other plants that we carry, [please check our other care guides](/care/) to see if they can be of help.
+
+Remember: No care guide is going to be perfect for every situation. Plants in rainy Seattle will have different needs than plants in hot and dry New Mexico. We recommend that all customers read their care guide thoroughly, follow the instructions, listen to what your plant is telling you about what it needs and adjust accordingly. 

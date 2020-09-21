@@ -25,3 +25,5 @@ Plants will arrive in the appropriate medium, however if you would like to repot
 It takes a lot of energy for your plant to open and close their traps, so it is best not to tamper with them and allow them to simply catch what they need. While it may be tempting to wipe off the bright colored dew on the leaves, the plant needs that dew to attract it’s meals and keep them there while they digest them. Bodies of bugs that have been eaten will blow away or be washed away by rain and watering. 
 
 If you have any questions or we can be of any help when you get the plant or in the future, please don’t hesitate to ask. Don't forget to like/follow our facebook page to see what new plants are available as they get ready throughout the year!  
+
+Remember: No care guide is going to be perfect for every situation. Plants in rainy Seattle will have different needs than plants in hot and dry New Mexico. We recommend that all customers read their care guide thoroughly, follow the instructions, listen to what your plant is telling you about what it needs and adjust accordingly. 

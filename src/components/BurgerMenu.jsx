@@ -68,6 +68,13 @@ const Head = styled.h1`
   }
 `;
 
+const HR = styled.hr`
+  width:50%;
+  align: left;
+  margin-bottom: auto;
+  margin-left: 2rem;
+`;
+
 const BurgerMenu = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
@@ -107,16 +114,20 @@ const BurgerMenu = () => {
             {/* <Link to="/about">About</Link> */}
             <Link to="/catalog">Full Catalog</Link>
             <Nav2>
-              {/* <Link to="/catalog/succulents/">All Succulents</Link>
-              <Link to="/catalog/succulents/sempervivum">Sempervivum</Link>
-              <Link to="/catalog/succulents/echeveria">Echeveria</Link>
-              <Link to="/catalog/succulents/rosette">Rosette's</Link>
-              <Link to="/catalog/succulents/soft">Soft Succulents</Link> 
-              <Link to="/catalog/cacti">Cactus</Link>*/}
+               <HR />
               <Link to="/catalog/carnivorous-plants">Carnivorous Plants</Link>
               <Link to="/catalog/houseplants">Houseplants</Link>
               <Link to="/catalog/fairy-garden">Fairy Garden Plants</Link>
-              {/* <Link to="/catalog/bundles">Bundles</Link> */}
+              <Link to="/catalog/bundles">Bundles</Link> 
+               <HR />
+              <Link to="/catalog/succulents/">All Succulents</Link>
+              <Link to="/catalog/succulents/sempervivum">Sempervivum</Link>
+              <Link to="/catalog/succulents/echeveria">Echeveria</Link>
+              <Link to="/catalog/succulents/rosette">Rosette's</Link>
+              <Link to="/catalog/succulents/soft">Soft Succulents</Link>
+               <HR />
+              {/*<Link to="/catalog/cacti">Cactus</Link>*/}
+              
 
 
             </Nav2> 
