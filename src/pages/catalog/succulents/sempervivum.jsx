@@ -46,7 +46,8 @@ const CatalogWrapper = styled.div`
 `;
 
 const sempervivum = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.inStock;
+  const edges2 = data.outOfStock.edges;
   return (
     <Layout>
       <Header title="Sempervivum - Hens and Chicks">
@@ -54,13 +55,13 @@ const sempervivum = ({ data }) => {
       </Header>
 
       <PostWrapper>
-          <h2> Sempervivum  (Hens & Chicks) and Heuffelii - Sweet Leaf Succulents</h2>
+          <h2> Sempervivum  (Hens & Chicks) and Heuffelii</h2>
       </PostWrapper>
-      <PostWrapper>
+      {/* <PostWrapper>
           <p>
             Announcement: We will be adding many new plants to our inventory over the coming weeks. We will also be updating our succulent catalog. You can follow us on social media to get the latest updates!
           </p>
-      </PostWrapper>
+      </PostWrapper> */}
       <CatalogWrapper>
         {edges.map(({ node }) => (
           <CatalogList
@@ -73,6 +74,20 @@ const sempervivum = ({ data }) => {
             excerpt={node.excerpt}
             inStock={node.frontmatter.inStock}
 
+          />
+        ))}
+      </CatalogWrapper>
+      <CatalogWrapper>
+        {edges2.map(({ node }) => (
+          <CatalogList
+            key={node.id}
+            cover={node.frontmatter.cover.childImageSharp.fluid}
+            path={node.frontmatter.path}
+            title={node.frontmatter.title}
+            date={node.frontmatter.date}
+            tags={node.frontmatter.tags}
+            excerpt={node.excerpt}
+            inStock={node.frontmatter.inStock}
           />
         ))}
       </CatalogWrapper>
@@ -105,7 +120,31 @@ sempervivum.propTypes = {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { type1: { eq: "sempervivum" } } }) {
+    inStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" }, type1: { eq: "sempervivum" } } }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 200)
+          frontmatter {
+            title
+            path
+            tags
+            id
+            inStock
+            price
+            date(formatString: "MM.DD.YYYY")
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 1000, quality: 90) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    outOfStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/OutOfStock" }, type1: { eq: "sempervivum" } } }) {
       edges {
         node {
           id

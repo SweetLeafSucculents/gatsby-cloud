@@ -10,7 +10,7 @@ title: "Sunrise"
 scientificname: "Anacampseros telephiastrum variegata"
 id: 16
 type1: "soft"
-type2: "rosette"
+type2: ""
 catalog-section: "succulents"
 tags: ['succulents', 'soft', 'variegated', ]
 primarycolor: "Pink"

@@ -10,7 +10,7 @@ title: "Tenelli"
 scientificname: "Crassula mesembryanthemoides"
 id: 16
 type1: "soft"
-type2: "rosette"
+type2: ""
 catalog-section: "succulents"
 tags: ['succulents', 'soft', 'crassula']
 primarycolor: "Crassula mesembryanthemoides 'Tenelli'"

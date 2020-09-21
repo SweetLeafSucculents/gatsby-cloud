@@ -29,7 +29,7 @@ sku: "sku_HVBQKnsXYAEEG5"
 # options: '[{ label: "Small", value: 1 }, { label: "Large", value: 2 }]'
 published: true
 available: 1
-inStock: "http://schema.org/InStock"
+inStock: "http://schema.org/OutOfStock"
 story: "Drosera spatulata is a carnivorous plant in the Droseraceae family that are native to Southeast Asia."
 
 ---

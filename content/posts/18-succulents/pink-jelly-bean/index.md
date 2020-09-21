@@ -10,7 +10,7 @@ title: "Pink Jelly Bean"
 scientificname: "Sedum rubrotinctum"
 id: 16
 type1: "soft"
-type2: "rosette"
+type2: ""
 catalog-section: "succulents"
 tags: ['succulents', 'soft', 'tall']
 primarycolor: "Pink"

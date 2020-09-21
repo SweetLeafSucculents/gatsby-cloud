@@ -10,7 +10,7 @@ title: "Sedum oaxacanum"
 scientificname: "Sedum oaxacanum"
 id: 16 
 type1: "soft"
-type2: "rosette"
+type2: ""
 catalog-section: "succulents"
 tags: ['succulents', 'soft', 'sedum']
 primarycolor: "Green / Lime"

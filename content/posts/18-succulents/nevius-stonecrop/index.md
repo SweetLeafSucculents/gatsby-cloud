@@ -10,9 +10,9 @@ title: "Nevius Stonecrop"
 scientificname: "Sedum nevii"
 id: 16
 type1: "soft"
-type2: "rosette"
+type2: ""
 catalog-section: "succulents"
-tags: ['succulents', 'soft', 'stonecrop', 'rosette']
+tags: ['succulents', 'soft', 'stonecrop']
 primarycolor: "Green / Lime"
 stresscolors: "Orange / Copper, Pink"
 bloomcolor: "Yellow Bloom"

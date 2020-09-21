@@ -46,7 +46,8 @@ const CatalogWrapper = styled.div`
 `;
 
 const succulents = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.inStock;
+  const edges2 = data.outOfStock.edges;
   return (
     <Layout>
       <Header title="Succulents - Sweet Leaf Succulents">
@@ -73,6 +74,20 @@ const succulents = ({ data }) => {
             excerpt={node.excerpt}
             inStock={node.frontmatter.inStock}
 
+          />
+        ))}
+      </CatalogWrapper>
+      <CatalogWrapper>
+        {edges2.map(({ node }) => (
+          <CatalogList
+            key={node.id}
+            cover={node.frontmatter.cover.childImageSharp.fluid}
+            path={node.frontmatter.path}
+            title={node.frontmatter.title}
+            date={node.frontmatter.date}
+            tags={node.frontmatter.tags}
+            excerpt={node.excerpt}
+            inStock={node.frontmatter.inStock}
           />
         ))}
       </CatalogWrapper>
@@ -105,7 +120,31 @@ succulents.propTypes = {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { type1: { in: ["echeveria", "sempervivum", "soft"] } } }) {
+    inStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" }, type1: { in: ["echeveria", "sempervivum", "soft"] } } }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 200)
+          frontmatter {
+            title
+            path
+            tags
+            id
+            inStock
+            price
+            date(formatString: "MM.DD.YYYY")
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 1000, quality: 90) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    outOfStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/OutOfStock" }, type1: { in: ["echeveria", "sempervivum", "soft"] } } }) {
       edges {
         node {
           id
