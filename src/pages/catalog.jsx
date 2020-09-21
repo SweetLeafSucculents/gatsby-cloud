@@ -129,7 +129,7 @@ Catalog.propTypes = {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { available: { eq: 1 } } }) {
+    allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" } } }) {
       edges {
         node {
           id
