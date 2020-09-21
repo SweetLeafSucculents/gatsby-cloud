@@ -105,7 +105,7 @@ soft.propTypes = {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { id: { eq: 16 } } }) {
+    allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" }, id: { eq: 16 } } }) {
       edges {
         node {
           id

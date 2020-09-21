@@ -37,5 +37,3 @@ inStock: "http://schema.org/InStock"
 story: ""
 
 ---
-
-asd
