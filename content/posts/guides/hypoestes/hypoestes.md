@@ -1,7 +1,7 @@
 ---
 path: "/care/hypoestes"
 cover: "./hypoestes.jpg"
-pic: "./hypoestes.jpg"
+pic: "./hypoFront1.jpg"
 date: "2018-10-15"
 title: "Care Guide for Hypoestes phyllostachya"
 published: true
