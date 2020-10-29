@@ -7,7 +7,7 @@ title: "Care Guide for Syngoniums"
 published: true
 id: 1
 posttype: guides
-tags: ['fairy garden', 'terrarium', 'syngonium', 'mini pixie', 'care guides']
+tags: ['fairy garden', 'terrarium', 'syngonium', 'syngoniums', 'mini pixie', 'care guides']
 ---
 Upon arrival, carefully remove all paper surrounding your leaves and cut out of the plastic baggie holding the dirt in and replace any dirt that has fallen out of the bag. Water, if needed, and acclimate your plant to the light. Your plant has been on a long journey in the hands of people who do not care about it as we do, so it may need a day or two to perk back up. However, if you have any issues with your order at all or your package arrives damaged, please message me and let me know so we can start working towards a resolution right away. 
 
