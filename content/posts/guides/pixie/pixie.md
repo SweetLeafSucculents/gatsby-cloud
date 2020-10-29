@@ -11,13 +11,13 @@ tags: ['fairy garden', 'terrarium', 'syngonium', 'syngoniums', 'mini pixie', 'ca
 ---
 Upon arrival, carefully remove all paper surrounding your leaves and cut out of the plastic baggie holding the dirt in and replace any dirt that has fallen out of the bag. Water, if needed, and acclimate your plant to the light. Your plant has been on a long journey in the hands of people who do not care about it as we do, so it may need a day or two to perk back up. However, if you have any issues with your order at all or your package arrives damaged, please message me and let me know so we can start working towards a resolution right away. 
 
-About Syngoniums 
+## About Syngoniums 
 
 Syngonium podophyllum ‘Mini Pixie’ is a dwarf version of the Syngonium Pixie Butterfly plant or Arrowhead Plant and is a member of the Araceae family. Syngonium ‘Candy’ is a dwarf variety as well, but not a super dwarf like the pixie and will grow larger. Syngoniums are toxic to furry pets, but there are mixed opinions from the plant community on their toxicity to reptiles. This is a full potted and rooted live plant. Not a cutting. This is not a baby plant, but a true dwarf/super dwarf arrowhead plant that will stay small. They do spread wider over time as new shoots come out of the rhizome, but they will not get much taller. 
 
 Semi-tropical plant perfect for fairy gardens, terrariums and vivariums, doll houses, miniworlds, miniature scenes or just a really cute house plant for tiny spaces, such as dorm rooms, apartments or small shelves for desks. 
 
-Syngonium Care
+## Syngonium Care
 
 Dwarf Syngoniums are cared for in the same manner as the larger version, however you may have to water them slightly more often because smaller pots will make the plant dry out faster. Water by soaking the soil then allowing the soil to dry slightly before watering again. Do not let these dry an inch down, like some other household plants. Only allow the very top to dry slightly and keep the bottom consistently moist. If leaves start dying rapidly, increase your watering. Fertilize once or twice a month all year. 
 
