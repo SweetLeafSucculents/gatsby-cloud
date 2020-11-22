@@ -111,7 +111,7 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
   let option3 = post.option3;
   let option4 = post.option4;
 
-  letinStock = post.inStock;
+  let inStock = post.inStock;
 
   let stocked = stock(inStock);
 
