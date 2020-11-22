@@ -29,8 +29,8 @@ price: 19.99
 # price2: 39.99
 available: 0
 published: true
-inStock: "http://schema.org/InStock"
-# inStock: "http://schema.org/OutOfStock"
+# inStock: "http://schema.org/InStock"
+ inStock: "http://schema.org/OutOfStock"
 story: "Succulent Five Pack Bundle - Sempervivum Assortment"
 ---
 

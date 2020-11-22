@@ -32,8 +32,8 @@ sku: "sku_I3konNSJmNQTUo"
 # options: '[{ label: "Small", value: 1 }, { label: "Large", value: 2 }]'
 published: true
 available: 0
-inStock: "http://schema.org/InStock"
-# inStock: "http://schema.org/OutOfStock"
+#inStock: "http://schema.org/InStock"
+ inStock: "http://schema.org/OutOfStock"
 story: "Pink Jelly Bean (Sedum rubrotinctum 'Aurora')"
 
 ---
