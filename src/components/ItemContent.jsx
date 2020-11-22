@@ -111,7 +111,7 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
   let option3 = post.option3;
   let option4 = post.option4;
 
-  let inStock = post.inStock;
+  letinStock = post.inStock;
 
   let stocked = stock(inStock);
 
@@ -124,7 +124,7 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
   }
 
   //console.log('stocked ', stocked);
-  //console.log('inStock ', inStock);
+  //console.log('inStock ',inStock);
 
   let disabled = () => {
     if (stocked) return 'false';

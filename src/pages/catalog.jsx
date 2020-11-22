@@ -90,7 +90,7 @@ const Catalog = ({ data }) => {
             tags={node.frontmatter.tags}
             excerpt={node.story}
             //pic={node.frontmatter.pic.childImageSharp.fluid}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
           />
         ))}
 
@@ -129,7 +129,7 @@ Catalog.propTypes = {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" } } }) {
+    allMarkdownRemark(filter: { frontmatter: {inStock:{eq: "http://schema.org/InStock" } } }) {
       edges {
         node {
           id
@@ -140,7 +140,7 @@ export const query = graphql`
             tags
             id
             price
-            inStock
+           inStock
             available
             date(formatString: "MM.DD.YYYY")
             pic {

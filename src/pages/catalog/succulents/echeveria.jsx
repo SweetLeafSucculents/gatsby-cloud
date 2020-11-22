@@ -72,7 +72,7 @@ const echeveria = ({ data }) => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
             excerpt={node.excerpt}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
           />
         ))}
       </CatalogWrapper>
@@ -86,7 +86,7 @@ const echeveria = ({ data }) => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
             excerpt={node.excerpt}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
           />
         ))}
       </CatalogWrapper>
@@ -119,7 +119,7 @@ echeveria.propTypes = {
 
 export const query = graphql`
   query {
-    inStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" }, type1: { eq: "echeveria" } } }) {
+   inStock: allMarkdownRemark(filter: { frontmatter: {inStock:{eq: "http://schema.org/InStock" }, type1: { eq: "echeveria" } } }) {
       edges {
         node {
           id
@@ -129,7 +129,7 @@ export const query = graphql`
             path
             tags
             id
-            inStock
+           inStock
             price
             date(formatString: "MM.DD.YYYY")
             cover {
@@ -143,7 +143,7 @@ export const query = graphql`
         }
       }
     }
-    outOfStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/OutOfStock" }, type1: { eq: "echeveria" } } }) {
+    outOfStock: allMarkdownRemark(filter: { frontmatter: {inStock:{eq: "http://schema.org/OutOfStock" }, type1: { eq: "echeveria" } } }) {
       edges {
         node {
           id
@@ -153,7 +153,7 @@ export const query = graphql`
             path
             tags
             id
-            inStock
+           inStock
             price
             date(formatString: "MM.DD.YYYY")
             cover {

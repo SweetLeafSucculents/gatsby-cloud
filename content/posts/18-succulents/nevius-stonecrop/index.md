@@ -33,7 +33,7 @@ sku: "sku_I3kCvaSZNeXOsN"
 published: true
 available: 0
 #inStock: "http://schema.org/InStock"
- inStock: "http://schema.org/OutOfStock"
+inStock: "http://schema.org/OutOfStock"
 story: ""
 
 ---

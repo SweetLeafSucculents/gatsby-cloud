@@ -60,18 +60,18 @@ const Post = ({ data, pageContext }) => {
   const dataItemWeight = post.frontmatter.dataItemWeight;
   const sku = post.frontmatter.sku;
   const care = post.frontmatter.care;
-  const inStock = post.frontmatter.inStock;
+  constinStock = post.frontmatter.inStock;
 
   // let itemSkuArray = skuObj.find(obj => obj.sku == sku);
   // let itemQuantity = itemSkuArray.quantity;
   // itemImage = itemSkuArray.image;
   // console.log('itemQuantity', itemQuantity)
-  //const inStock = "http://schema.org/InStock";
+  //constinStock = "http://schema.org/InStock";
   // if (itemQuantity == 0) {
-  //   inStock = "http://schema.org/OutOfStock";
+  //  inStock = "http://schema.org/OutOfStock";
   // }
   //console.log('skuObj.quantity', skuObj)
-  //console.log('inStock', inStock);
+  //console.log('inStock',inStock);
   return (
     <Layout>
      
@@ -140,7 +140,7 @@ export const query = graphql`
         tags
         id
 
-        inStock
+       inStock
         
         option1
         option2

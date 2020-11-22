@@ -72,7 +72,7 @@ const sempervivum = ({ data }) => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
             excerpt={node.excerpt}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
 
           />
         ))}
@@ -87,7 +87,7 @@ const sempervivum = ({ data }) => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
             excerpt={node.excerpt}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
           />
         ))}
       </CatalogWrapper>
@@ -120,7 +120,7 @@ sempervivum.propTypes = {
 
 export const query = graphql`
   query {
-    inStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" }, type1: { eq: "sempervivum" } } }) {
+   inStock: allMarkdownRemark(filter: { frontmatter: {inStock:{eq: "http://schema.org/InStock" }, type1: { eq: "sempervivum" } } }) {
       edges {
         node {
           id
@@ -130,7 +130,7 @@ export const query = graphql`
             path
             tags
             id
-            inStock
+           inStock
             price
             date(formatString: "MM.DD.YYYY")
             cover {
@@ -144,7 +144,7 @@ export const query = graphql`
         }
       }
     }
-    outOfStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/OutOfStock" }, type1: { eq: "sempervivum" } } }) {
+    outOfStock: allMarkdownRemark(filter: { frontmatter: {inStock:{eq: "http://schema.org/OutOfStock" }, type1: { eq: "sempervivum" } } }) {
       edges {
         node {
           id
@@ -154,7 +154,7 @@ export const query = graphql`
             path
             tags
             id
-            inStock
+           inStock
             price
             date(formatString: "MM.DD.YYYY")
             cover {

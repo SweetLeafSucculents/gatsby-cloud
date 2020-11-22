@@ -67,7 +67,7 @@ const fairy = ({ data }) => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
             excerpt={node.excerpt}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
 
           />
         ))}
@@ -111,7 +111,7 @@ export const query = graphql`
             path
             tags
             id
-            inStock
+           inStock
             price
             date(formatString: "MM.DD.YYYY")
             cover {

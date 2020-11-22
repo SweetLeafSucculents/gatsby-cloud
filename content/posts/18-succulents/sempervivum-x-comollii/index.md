@@ -33,7 +33,7 @@ sku: "sku_I3lFOHfif8zL2e"
 published: true
 available: 0
 #inStock: "http://schema.org/InStock"
- inStock: "http://schema.org/OutOfStock"
+inStock: "http://schema.org/OutOfStock"
 story: "Sempervivum are cared for as any typical succulent and thrive on neglect. Water every 10 to 14 days when your plant is showing signs of thirst. Sempervivum do best outside or if inside need strong bright lighting conditions, such as with the use of a grow light."
 
 ---

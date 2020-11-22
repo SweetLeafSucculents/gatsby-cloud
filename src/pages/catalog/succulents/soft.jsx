@@ -74,7 +74,7 @@ const soft = ({ data }) => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
             excerpt={node.excerpt}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
 
           />
         ))}
@@ -89,7 +89,7 @@ const soft = ({ data }) => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
             excerpt={node.excerpt}
-            inStock={node.frontmatter.inStock}
+           inStock={node.frontmatter.inStock}
           />
         ))}
       </CatalogWrapper>
@@ -122,7 +122,7 @@ soft.propTypes = {
 
 export const query = graphql`
   query {
-    inStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/InStock" }, id: { eq: 16 } } }) {
+   inStock: allMarkdownRemark(filter: { frontmatter: {inStock:{eq: "http://schema.org/InStock" }, id: { eq: 16 } } }) {
       edges {
         node {
           id
@@ -132,7 +132,7 @@ export const query = graphql`
             path
             tags
             id
-            inStock
+           inStock
             price
             date(formatString: "MM.DD.YYYY")
             cover {
@@ -146,7 +146,7 @@ export const query = graphql`
         }
       }
     }
-    outOfStock: allMarkdownRemark(filter: { frontmatter: { inStock:{eq: "http://schema.org/OutOfStock" }, id: { eq: 16 } } }) {
+    outOfStock: allMarkdownRemark(filter: { frontmatter: {inStock:{eq: "http://schema.org/OutOfStock" }, id: { eq: 16 } } }) {
       edges {
         node {
           id
@@ -156,7 +156,7 @@ export const query = graphql`
             path
             tags
             id
-            inStock
+           inStock
             price
             date(formatString: "MM.DD.YYYY")
             cover {

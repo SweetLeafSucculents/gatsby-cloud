@@ -136,7 +136,7 @@ const CatalogList = ({
   excerpt,
   tags,
   story,
-  inStock,
+ inStock,
 }) => (
   // <CatalogContainer>
   <Wrapper>
