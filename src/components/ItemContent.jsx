@@ -145,7 +145,7 @@ const ItemContent = ({ post, skuObj, skus, html, publicImg }) => {
   let itemPrice = price1;
   const [price, setPrice] = useState(itemPrice);
   const [sku, setSku] = useState(itemSku);
-
+  
   let largePic = pic1;
 
   const [pic, setPic] = useState(largePic);
